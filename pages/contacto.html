@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Contacto</title>
+</head>
+<body>
+
+    <!-- fila de logo + nav -->
+    <header class="rosa">
+        <nav class="menu">    
+            <a href="" class="enlace">
+                <img src="../assets/logo-proyecto.png" alt="" class="logo">
+            </a>
+            <input type="checkbox" id="check">
+            <label for="check" class="btncheck">
+                <i class="menuicon"><img src="../assets/menu-regular.png" alt=""></i>
+            </label>
+            
+            <ul>
+                <li><a href="Iniciar sesion" class="menulinks">Iniciar sesion</a></li>
+                <li><a href="Registrarse" class="menulinks">Registrarse</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../pages/productos.html">Productos</a></li>
+                <li><a href="../pages/contacto.html">Contacto</a></li>
+                <li><a href="../pages/ubicacion.html">Ubicacion</a></li>
+                <li><a href="../pages/redes sociales.html">Redes sociales</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- cierre de fila logo + nav -->
+	<!-- fila de información de mi sitio -->
+    <section class="card">
+        <article class="contcard">
+            <form action="#">
+                <input type="text" placeholder="Nombre completo"> <br>
+                <label for="email">Email:
+					<input type="email" placeholder="xxxx@gmail.com" name="email"><br>
+				</label> <br>
+                <input type="number" placeholder="Edad"><br>
+				<div><p>Género:</p>
+                    <div>Femenino
+						<input type="radio" name="lado" value="Femenino">
+					</div>
+					<div>Masculino
+						<input type="radio" name="lado" value="Masculino">
+					</div>
+                    <div>Prefiero no responder
+						<input type="radio" name="lado" value="Prefiero no responder">
+					</div>
+				</div>
+                <p>Nacionalidad:</p>
+				<select name="país" id="país"> 
+					<option value="Argentina">Argentina</option>
+					<option value="Brasil">Brasil</option>
+					<option value="Otro">Otro</option>
+				</select>
+                <div>Aceptas recibir mails con novedades? 
+                    <input type="submit" value="Si!">
+                    <input type="reset" value="No, gracias">
+            </form>
+        </article>
+    </section>
+
+    <!-- inicio de footer -->
+    <footer id="bazar" class="bodoni">
+        <div class="grid-container">
+            <h3 class="item1">HOME</h3>
+            <h3 class="item2">PRODUCTOS</h3>
+            <h3 class="item3">CONTACTO</h3>
+            <h3 class="item4">UBICACION</h3>
+            <h3 class="item5">RRSS</h3>
+            <div class="item6">
+                <img src="../assets/whatsapp-logo.png" alt="">
+            </div>
+            <div class="item7">
+                <img src="../assets/instagram-logo.png" alt="">
+            </div>
+            <div class="item8">
+                <img src="../assets/facebook-circle-logo.png" alt="">
+            </div>
+            <div class="item9">
+                <img src="../assets/email-logo.png" alt="">
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
